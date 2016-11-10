@@ -1,16 +1,13 @@
-<<<<<<< HEAD
-h2. vtig_ws_language - README
+# vtig_ws_language - README
 
-# Move all the files to your CRM root directory
-# Run the db.sql in your crm database
+## Move all the files to your CRM root directory
+## Run the db.sql in your crm database
 
-h2. How to use
+# How to use
 
 ```sh
 $modules = json_encode(array('Accounts','HelpDesk'));// if no modules, default vtiger will be returned, otherwise the module strings over write the vtiger strings
 $lang_retrieve = getResponseFromURL("$endpointurl?operation=retrievelanguages&sessionName=".$session."&lang=en_us&modules=".$modules);
 
 ```
-=======
-# vtig_ws_language
->>>>>>> 3d76bc9a90701bc6aff8ad17b7b72f817d34ab26
+
