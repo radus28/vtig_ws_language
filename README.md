@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h2. vtig_ws_language - README
 
 # Move all the files to your CRM root directory
@@ -10,3 +11,6 @@ $modules = json_encode(array('Accounts','HelpDesk'));// if no modules, default v
 $lang_retrieve = getResponseFromURL("$endpointurl?operation=retrievelanguages&sessionName=".$session."&lang=en_us&modules=".$modules);
 
 ```
+=======
+# vtig_ws_language
+>>>>>>> 3d76bc9a90701bc6aff8ad17b7b72f817d34ab26
