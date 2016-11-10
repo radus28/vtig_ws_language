@@ -1,7 +1,7 @@
 # vtig_ws_language - README
 
-## Move all the files to your CRM root directory
-## Run the db.sql in your crm database
+1. Move all the files to your CRM root directory
+2. Run the db.sql in your crm database
 
 # How to use
 
