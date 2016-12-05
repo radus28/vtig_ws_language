@@ -11,3 +11,9 @@ $lang_retrieve = getResponseFromURL("$endpointurl?operation=retrievelanguages&se
 
 ```
 
+# Core change
+under "modules/Mobile/api.php"
+```sh
+'fetchLanguage'             => array('file' => '/api/ws/FetchLanguage.php', 'class' => 'Mobile_WS_FetchLanguage'),
+```		
+    
